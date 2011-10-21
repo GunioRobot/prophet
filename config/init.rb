@@ -11,7 +11,7 @@ use_template_engine :haml
 
 Merb::BootLoader.before_app_loads do
 end
- 
+
 Merb::BootLoader.after_app_loads do
 end
 
@@ -24,7 +24,7 @@ Merb::Router.prepare do
       match('/:service/:command').to(:action => 'control')
     end
   end
-  
+
   default_routes
 end
 

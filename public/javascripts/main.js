@@ -1,16 +1,16 @@
 $(document).ready(function() {
-  
-  /* 
+
+  /*
    * Current service being managed
    */
   var svc = null;
-  
-  /* 
+
+  /*
    * Set up modal control dialog
    */
   $('#controls').jqm({overlay: 80});
-  
-  /* 
+
+  /*
    * Bind all watches to the control dialog
    */
   $(".service").each(function() {
@@ -21,5 +21,5 @@ $(document).ready(function() {
       $('#controls').jqmShow();
     });
   });
-  
+
 });
